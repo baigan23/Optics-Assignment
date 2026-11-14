@@ -15,7 +15,7 @@ This project simulates how light spreads after passing through different opening
 - `outputs/summary.json` - computed errors and predicted fringe positions.
 - `EXPLAIN_IN_VIVA.md` - a short script and common oral questions.
 
-## Run it yourself
+## Run it 
 
 1. Install Python 3.10 or later, if needed.
 2. Open a terminal in this project folder.
@@ -37,15 +37,6 @@ All figures, numeric CSVs, and summary results will be saved inside `outputs/`.
 
 Open `input.json`. You can change `wavelength_nm`, `screen_distance_m`, the sizes of the apertures and other listed values. Run the code again to regenerate outputs. Keep the aperture sizes substantially smaller than `aperture_window_mm` and keep the grid fine enough to represent the openings accurately. The graphs are normalized so each pattern has a maximum intensity of 1.
 
-## How to explain this in one minute
-
-When light passes through a very small opening, it spreads out and forms alternating bright and dark regions on a screen. In the far field, the light pattern is related to the Fourier transform of the aperture shape. My program represents an opening as a matrix of 0s and 1s, applies the FFT, squares the magnitude to get intensity, and plots the result. I repeated this for four shapes and checked that the simulated graphs closely match the expected physics equations.
-
-## Before submission
-
-- Rename `YOUR_ROLL_NUMBER.pdf` to **your actual roll number** (example: `YOURACTUALROLLNO.pdf`).
-- Replace the name and roll-number blanks on the report cover page if required (the included PDF has placeholders).
-- The PDF contains the complete code and the input configuration, so it is suitable for a single-PDF submission. The ZIP is for your working files; submit it only if the instructor accepts additional files.
-- Review the graphs and results so you can explain them in your own words.
-
+ 
+ 
 **Note:** The program uses a simplified ideal optical model: coherent monochromatic light, a plane wave, a screen in the far-field region, and no absorption or lens imperfections.
