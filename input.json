@@ -1,0 +1,11 @@
+{
+  "wavelength_nm": 550.0,
+  "screen_distance_m": 2.0,
+  "grid_points": 1024,
+  "aperture_window_mm": 2.56,
+  "plot_half_width_mm": 25.0,
+  "single_slit": {"width_mm": 0.10},
+  "double_slit": {"slit_width_mm": 0.07, "slit_separation_mm": 0.28},
+  "rectangle": {"width_mm": 0.16, "height_mm": 0.09},
+  "circular": {"diameter_mm": 0.22}
+}
